@@ -11,27 +11,63 @@
 .container__link:hover {
     text-decoration: underline;
 }
+
+
 .figma-logo {
-    width: 206px;
-    height: 68px;
+    width: 186px;
+    height: 58px;
+    margin: 20px 200px 11px 23px;
 }
 
 .header__figma {
     margin: auto;
     color: white;
-    padding: 30px;
 }
 
 .header__title {
     font-size: 3rem;
     font-weight: 400;
-    padding: 30px;
+    margin: 60px 22px 7px 22px;
 
 }
 
-.header__text {
+.header-content__text {
     font-size: 1.75rem;
+    margin: 28px 44px 68px 44px;
     line-height: 40px;
     font-weight: 400;
-    padding: 50px;
 }
+
+@media (min-width: 720px) {
+
+    .header-nav {
+        display: inline;
+        display: flex;
+    }
+
+    .figma-logo{
+        padding: 0;
+    }
+
+    .container__link {
+        padding: 5% 1% 1% 1%;
+    }
+
+    .headert__title {
+        font-weight: 700;
+        font-size: 4.625rem;
+        line-height: 84px;
+        margin-top: 100px;
+        margin-left: 40%;
+        margin-right: 40%;
+        padding: 30px;
+        
+    }
+
+    .header__text {
+        font-weight: 400;
+        font-size: 1.75rem;
+        line-height: 40px;
+        padding: 30px;
+    }
+} 
