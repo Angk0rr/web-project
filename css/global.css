@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Magra:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Magra', sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
