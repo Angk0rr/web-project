@@ -7,9 +7,12 @@
 }
 
 :root {
+    --header--color: white;
+    --button--color:#2091F9;
+    --main--color: #252B42;
+    --subtitle--color:#374754;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Magra', sans-serif;
-    letter-spacing: 0.2px;
     text-align: center;
 }
 
@@ -22,3 +25,21 @@ img {
     max-width: 1200px;
     margin: auto;
 }
+
+ul {
+    list-style-type: none; 
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button {
+    max-width: 236px;
+    padding: 16px 56px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    background-color: #2091F9;
+    border-radius: 35px;
+    text-decoration: none;
+}
+

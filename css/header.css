@@ -4,70 +4,72 @@
     background-size: cover;
     background-position: 50%, 50%;
 }
-.container__link {
-    text-decoration: none;
-    color: white;
+.nav__menu, .social-networks {
+    display: none;
 }
-.container__link:hover {
-    text-decoration: underline;
-}
-
-
 .figma-logo {
     width: 186px;
     height: 58px;
-    margin: 20px 200px 11px 23px;
+    padding: 10px 30px 0 15px;
+    position: absolute;
 }
 
 .header__figma {
+    padding: 192px 10px 166px;
     margin: auto;
-    color: white;
 }
 
 .header__title {
     font-size: 3rem;
     font-weight: 400;
-    margin: 60px 22px 7px 22px;
-
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color:var(--header--color)
 }
 
-.header-content__text {
+.header__text {
     font-size: 1.75rem;
-    margin: 28px 44px 68px 44px;
-    line-height: 40px;
     font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color:var(--header--color);
+    padding-top: 60px;
 }
 
-@media (min-width: 720px) {
+.social-networks {
+    padding-right: 30px;
+}
 
-    .header-nav {
-        display: inline;
-        display: flex;
+@media (min-width: 800px) {
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
     }
 
-    .figma-logo{
-        padding: 0;
-    }
 
-    .container__link {
-        padding: 5% 1% 1% 1%;
-    }
+.nav__menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+.figma-logo {
+    padding: 0;
+    margin: auto;
+}
 
-    .headert__title {
-        font-weight: 700;
-        font-size: 4.625rem;
-        line-height: 84px;
-        margin-top: 100px;
-        margin-left: 40%;
-        margin-right: 40%;
-        padding: 30px;
-        
-    }
+.social-networks {
+    display: flex;
+    margin-left: 45%;
+    margin-right: 5%;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
 
-    .header__text {
-        font-weight: 400;
-        font-size: 1.75rem;
-        line-height: 40px;
-        padding: 30px;
-    }
-} 
+}
+
+
+}
